@@ -15,16 +15,16 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Button("bgm play"){
+            Button("mono bgm play"){
                 bgmService.startBGM()
             }
-            .frame(width: 1000.0, height: 300)
-            .font(.system(size: 200, weight: .semibold))
-            Button("bgm stop"){
+            .frame(width: 1800, height: 300)
+            .font(.system(size: 150, weight: .semibold))
+            Button("mono bgm stop"){
                 bgmService.stopBGM()
             } //1
-            .frame(width: 800.0, height: 300)
-            .font(.system(size: 200, weight: .semibold))
+            .frame(width: 1800, height: 300)
+            .font(.system(size: 150, weight: .semibold))
             
         }
     }

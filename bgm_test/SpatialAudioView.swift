@@ -36,7 +36,7 @@ struct SpatialAudioView: View {
                 spatialAudioEntity.playAudio(audioSpringLoad!)
                 
             }
-            Button("spatial 공간 음악 정지"){
+            Button("stereo Audio stop"){
                 spatialAudioEntity.stopAllAudio()
             }
             .frame(width: 1000, height: 300)
